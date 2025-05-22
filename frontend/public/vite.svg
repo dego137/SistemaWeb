@@ -1,0 +1,23 @@
+<svg width="220" height="220" viewBox="0 0 220 220" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="eyeGradient" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#005f73"/>
+      <stop offset="100%" stop-color="#0a9396"/>
+    </linearGradient>
+  </defs>
+  <style>
+    .eye { fill: url(#eyeGradient); opacity: 0.9; }
+    .pupil { fill: #001219; }
+    .warning-circle { fill: #e9d8a6; stroke: #ee9b00; stroke-width: 4; }
+    .warn-text { font-family: 'Segoe UI', sans-serif; font-size: 16px; fill: #ca6702; font-weight: bold; }
+  </style>
+
+  <!-- Ojo estilizado -->
+  <path class="eye" d="M30 110 Q110 40 190 110 Q110 180 30 110 Z"/>
+  <!-- Pupila -->
+  <circle class="pupil" cx="110" cy="110" r="12"/>
+  <!-- Círculo de advertencia -->
+  <circle class="warning-circle" cx="110" cy="55" r="18"/>
+  <!-- Texto de exclamación -->
+  <text x="110" y="61" text-anchor="middle" class="warn-text">!</text>
+</svg>
